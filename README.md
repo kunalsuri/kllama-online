@@ -83,7 +83,7 @@ pip install -r requirements.txt
 > As said before, running Kllama online needs the user to have an account in webservices such as [Replicate.com](https://replicate.com/) to use the open LLM models running there. Once the Prerequisite step run the following command
 
 ```bash
-streamlit run kllama_online.py
+streamlit run kllama-online.py
 ```
    
 <br>
