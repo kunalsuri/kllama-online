@@ -8,8 +8,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/kunalsuri/kllama?color=yellow)
 ![GitHub Repo stars](https://img.shields.io/github/stars/kunalsuri/kllama)
 
-
-
 <br>
 
 > Author: Kunal Suri, Ph.D.
@@ -29,7 +27,6 @@ This application will be executed using open-source LLM models provided by servi
 
 ---
 
-
 ### Prerequisite Steps for using models online
 
 To run the Kllama app online, the user needs an account in [Replicate.com](https://replicate.com/). Once this account is created, the user will get an API Key/ Token, which is needed to execute the prompt on the LLM. 
@@ -47,12 +44,17 @@ To run the Kllama app online, the user needs an account in [Replicate.com](https
 3. Place the API token in the .streamlit/secrets.tom file
    > REPLICATE_API_TOKEN = "PUT YOUT TOKEN HERE"
 
+<br>
+
+---
+
+### Running Kllama via Models Online
 
 To use this app, you need do the following steps:
 
 1. **Download/ Replicate the Git Repo in your local machine**
 
-   > We assume that you have cloned the Kllama repo on your local machine. If not, do the following:
+   > We assume that you have cloned the kllama-online repo on your local machine. If not, do the following:
 
 ```bash
 git clone https://github.com/kunalsuri/kllama-online.git
@@ -60,11 +62,11 @@ git clone https://github.com/kunalsuri/kllama-online.git
 
 <br>
 
-⚠️ Recommendation: To keep their python installations for other projects clean, we recommend that the users create a new python virtual environment for the Kllama project and install the python packages via requirement.txt (in Step 3 below)
+⚠️ Recommendation: To keep their python installations for other projects clean, we recommend that the users create a new python virtual environment for the Kllama project and install the python packages via requirement.txt (in Step 2 below)
 
 <br>
 
-3. **Install the python packages needed to run the Kllama Online Chatbot**
+2. **Install the python packages needed to run the Kllama Online Chatbot**
 
 > kllama-online.py application needs the following main packages: replicate, streamlit. They have been included to the requirements.txt and can be easily installed. To install the packages, go to the folder containing kllama-online and enter the below command:
 
@@ -74,9 +76,7 @@ pip install -r requirements.txt
 
 <br>
 
----
-
-### Running Kllama via Models Online
+3. **Running the app**
 
 > As said before, running Kllama online needs the user to have an account in webservices such as [Replicate.com](https://replicate.com/) to use the open LLM models running there. Once the Prerequisite step run the following command
 
