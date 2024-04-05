@@ -16,8 +16,14 @@
 
 <br>
 
-## 🚀 How to use Kllama Online?
-This application will be executed using open-source LLM models provided by services such as Replicate.com
+## 🚀 How to use Kllama Chatbot via LLM Models deployed Online?
+This application will be executed using open-source LLM models service provided by Replicate.com.
+
+<br>
+
+⚠️ Note: We are not affiliated with [Replicate.com](https://replicate.com) company; we simply found their service interesting and decided to use it.
+
+<br>
 
 ### Table of Contents
 1. [Prerequisites](#Prerequisites)
@@ -30,10 +36,6 @@ This application will be executed using open-source LLM models provided by servi
 ### Prerequisite Steps for using models online
 
 To run the Kllama app online, the user needs an account in [Replicate.com](https://replicate.com/). Once this account is created, the user will get an API Key/ Token, which is needed to execute the prompt on the LLM. 
-
-<br>
-
-⚠️ Note: We are not affiliated with [Replicate.com](https://replicate.com) company; I simply found their service interesting and decided to use it.
 
 <br>
 
